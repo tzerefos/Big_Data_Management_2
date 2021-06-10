@@ -1,6 +1,6 @@
 python/.ipynb_checkpoints
 __pycache__/
 test/
-dataset/
+datasets/
 bdm2venv/
 hadoop

@@ -1,0 +1,61 @@
+[{
+  "_id": "International Movies",
+  "count": 1927
+},{
+  "_id": "Dramas",
+  "count": 1623
+},{
+  "_id": "Comedies",
+  "count": 1113
+},{
+  "_id": "International TV Shows",
+  "count": 1001
+},{
+  "_id": "Documentaries",
+  "count": 668
+},{
+  "_id": "TV Dramas",
+  "count": 599
+},{
+  "_id": "Action & Adventure",
+  "count": 597
+},{
+  "_id": "Independent Movies",
+  "count": 552
+},{
+  "_id": "TV Comedies",
+  "count": 436
+},{
+  "_id": "Thrillers",
+  "count": 392
+},{
+  "_id": "Children & Family Movies",
+  "count": 378
+},{
+  "_id": "Romantic Movies",
+  "count": 376
+},{
+  "_id": "Crime TV Shows",
+  "count": 363
+},{
+  "_id": "Kids' TV",
+  "count": 328
+},{
+  "_id": "Stand-Up Comedy",
+  "count": 281
+},{
+  "_id": "Docuseries",
+  "count": 279
+},{
+  "_id": "Romantic TV Shows",
+  "count": 278
+},{
+  "_id": "Horror Movies",
+  "count": 262
+},{
+  "_id": "Music & Musicals",
+  "count": 243
+},{
+  "_id": "British TV Shows",
+  "count": 210
+}]
