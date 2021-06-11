@@ -26,28 +26,28 @@
   "_id": "Australia",
   "count": 50
 },{
-  "_id": "Spain",
+  "_id": "Mexico",
   "count": 45
 },{
-  "_id": "Mexico",
+  "_id": "Spain",
   "count": 45
 },{
   "_id": "China",
   "count": 36
 },{
-  "_id": "Turkey",
+  "_id": "Germany",
   "count": 25
 },{
-  "_id": "Germany",
+  "_id": "Turkey",
   "count": 25
 },{
   "_id": "Colombia",
   "count": 23
 },{
-  "_id": "Thailand",
+  "_id": "Brazil",
   "count": 18
 },{
-  "_id": "Brazil",
+  "_id": "Thailand",
   "count": 18
 },{
   "_id": "Italy",
@@ -58,4 +58,121 @@
 },{
   "_id": "Russia",
   "count": 14
+},{
+  "_id": "Singapore",
+  "count": 13
+},{
+  "_id": "Ireland",
+  "count": 11
+},{
+  "_id": "Israel",
+  "count": 9
+},{
+  "_id": "Denmark",
+  "count": 9
+},{
+  "_id": "Egypt",
+  "count": 9
+},{
+  "_id": "Sweden",
+  "count": 8
+},{
+  "_id": "New Zealand",
+  "count": 8
+},{
+  "_id": "Belgium",
+  "count": 8
+},{
+  "_id": "Norway",
+  "count": 8
+},{
+  "_id": "Malaysia",
+  "count": 7
+},{
+  "_id": "Lebanon",
+  "count": 7
+},{
+  "_id": "Netherlands",
+  "count": 6
+},{
+  "_id": "Czech Republic",
+  "count": 5
+},{
+  "_id": "Poland",
+  "count": 5
+},{
+  "_id": "South Africa",
+  "count": 5
+},{
+  "_id": "Pakistan",
+  "count": 4
+},{
+  "_id": "Hong Kong",
+  "count": 4
+},{
+  "_id": "Chile",
+  "count": 4
+},{
+  "_id": "Finland",
+  "count": 3
+},{
+  "_id": "Greece",
+  "count": 3
+},{
+  "_id": "Indonesia",
+  "count": 2
+},{
+  "_id": "West Germany",
+  "count": 2
+},{
+  "_id": "Ukraine",
+  "count": 2
+},{
+  "_id": "Azerbaijan",
+  "count": 1
+},{
+  "_id": "Jordan",
+  "count": 1
+},{
+  "_id": "Iceland",
+  "count": 1
+},{
+  "_id": "Mauritius",
+  "count": 1
+},{
+  "_id": "Syria",
+  "count": 1
+},{
+  "_id": "Croatia",
+  "count": 1
+},{
+  "_id": "United Arab Emirates",
+  "count": 1
+},{
+  "_id": "Philippines",
+  "count": 1
+},{
+  "_id": "Malta",
+  "count": 1
+},{
+  "_id": "Switzerland",
+  "count": 1
+},{
+  "_id": "Cuba",
+  "count": 1
+},{
+  "_id": "Hungary",
+  "count": 1
+},{
+  "_id": "Saudi Arabia",
+  "count": 1
+},{
+  "_id": "Austria",
+  "count": 1
+},{
+  "_id": "Kuwait",
+  "count": 1
+},{
+  "_id": "Cyprus",
+  "count": 1
 }]
