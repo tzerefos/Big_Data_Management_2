@@ -1,0 +1,84 @@
+/*
+  Tzerefos Anargiros - 2022202004022 - dit2022dsc@office365.uop.gr
+  Deligiannis Panagiotis - 2022202004004 - dit2004dsc@office365.uop.gr
+*/
+
+[{
+    $addFields: {
+        "actors": {
+            $split: ["$cast", ", "]
+        }
+    }
+}, {
+    $unwind: {
+        path: "$actors"
+    }
+}, {
+    $addFields: {
+        "genre": {
+            $split: ["$listed_in", ", "]
+        }
+    }
+}, {
+    $unwind: {
+        path: "$genre"
+    }
+}, {
+    $group: {
+        _id: {
+            id: "$actors",
+            genre: "$genre"
+        },
+        count: {
+            $sum: 1
+        }
+    }
+}, {
+    $group: {
+        _id: "$_id.id",
+        term_count: {
+            $push: {
+                genre: "$_id.genre",
+                count: "$count"
+            }
+        }
+    }
+}, {
+    $sort: {
+        "term_count.count": -1
+    }
+}, {
+    $unwind: {
+        path: "$term_count"
+    }
+}, {
+    $sort: {
+        "term_count.count": -1
+    }
+}, {
+    $group: {
+        _id: '$_id',
+        'term_count_ordered': {
+            $push: '$term_count'
+        }
+
+    }
+}, {
+    $sort: {
+        "term_count_ordered.count": -1
+    }
+}, {
+    $project: {
+        _id: 1,
+        type: {
+            $arrayElemAt: ["$term_count_ordered.genre", 0]
+        },
+        count: {
+            $arrayElemAt: ["$term_count_ordered.count", 0]
+        }
+    }
+}, {
+    $sort: {
+        _id: 1
+    }
+}]

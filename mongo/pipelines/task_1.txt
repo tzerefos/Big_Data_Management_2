@@ -1,0 +1,18 @@
+/*
+  Tzerefos Anargiros - 2022202004022 - dit2022dsc@office365.uop.gr
+  Deligiannis Panagiotis - 2022202004004 - dit2004dsc@office365.uop.gr
+*/
+
+[{
+    $match: {
+        date_added: {
+            $regex: "2019$"
+        }
+    }
+}, {
+    $project: {
+        show_id: 1,
+        type: 1,
+        title: 1
+    }
+}]

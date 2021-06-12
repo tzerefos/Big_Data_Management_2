@@ -1,0 +1,31 @@
+/*
+  Tzerefos Anargiros - 2022202004022 - dit2022dsc@office365.uop.gr
+  Deligiannis Panagiotis - 2022202004004 - dit2004dsc@office365.uop.gr
+*/
+
+[{
+    $addFields: {
+        "countries": {
+            $split: ["$country", ", "]
+        }
+    }
+}, {
+    $match: {
+        type: "TV Show"
+    }
+}, {
+    $unwind: {
+        path: "$countries"
+    }
+}, {
+    $group: {
+        _id: "$countries",
+        count: {
+            $sum: 1
+        }
+    }
+}, {
+    $sort: {
+        count: -1
+    }
+}]
